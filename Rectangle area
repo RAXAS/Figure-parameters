@@ -1,0 +1,18 @@
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def getWidh(self):
+        return self.width
+
+    def getHeight(self):
+        return self.height
+
+    def rectungle_area(self):
+        return self.width*self.height
+
+r1 = Rectangle(50, 100)
+
+
+print(f"Rectangle area = {r1.rectungle_area()}")

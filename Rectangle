@@ -12,7 +12,7 @@ class Rectangle:
         return self.y
 
     def getWidh(self):
-        return self.Widh
+        return self.width
 
     def getHeight(self):
         return self.height
